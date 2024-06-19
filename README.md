@@ -22,6 +22,18 @@ _Python_
 - pip install simplejson
 - pip install confluent_kafka
 
+_Kafka_
+- broker port is 9092
+- kafka-topics --list --bootstrap-server broker:9092
+- _test ingestion on kafka #_>
+  kafka-console-consumer --topic financial_transactions --bootstrap-server broker:9092
+
+_Postgres_
+- psql -U postgres (password:: postgres)
+- \l to list tables
+
+_Elastic Search_
+- will be available on port 5601
 
 
 
